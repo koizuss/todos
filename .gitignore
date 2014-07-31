@@ -4,3 +4,5 @@ Gemfile.lock
 bin
 ruby_modules
 bower_components
+assets/components
+assets/js/todos.min.*
