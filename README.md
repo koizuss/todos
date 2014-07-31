@@ -19,12 +19,16 @@ todos
 
 	npm start
 
-### append client library
+### manage project
+
+#### set path project tools
 
 	source ./env
+
+#### append client library
+
 	bower install -D [lib]
 
-### use grunt task
+#### use grunt task
 
-	source ./env
 	grunt [task]
