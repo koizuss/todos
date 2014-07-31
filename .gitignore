@@ -1,1 +1,5 @@
 node_modules
+.bundle
+Gemfile.lock
+bin
+ruby_modules

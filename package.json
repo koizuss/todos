@@ -4,8 +4,13 @@
   "description": "manage your todos",
   "main": "index.js",
   "scripts": {
+    "start": "npm install && bower install",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "koizuss",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "bower": "^1.3.8",
+    "grunt-cli": "^0.1.13"
+  }
 }
