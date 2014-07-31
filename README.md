@@ -20,8 +20,9 @@ todos
 	npm start
 
 ### manage project
+	source ./env
 
-#### set path project tools
+#### set path for use project tools
 
 	source ./env
 
