@@ -5,8 +5,8 @@ todos
 
 - node: v0.10.26
 	- npm: v1.4.7
-- ruby: v1.8.7 (2012-02-08 patchlevel 358) [universal-darwin11.0]
-	- compass
+- ruby: v1.9.3p448
+	- bundler: v1.5.3
 
 ## Setup
 
@@ -21,5 +21,10 @@ todos
 
 ### append client library
 
+	source ./env
 	bower install -D [lib]
 
+### use grunt task
+
+	source ./env
+	grunt [task]
