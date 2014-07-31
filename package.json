@@ -1,0 +1,11 @@
+{
+  "name": "todos",
+  "version": "0.0.0",
+  "description": "manage your todos",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "koizuss",
+  "license": "MIT"
+}
