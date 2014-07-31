@@ -12,7 +12,7 @@ todos
 
 	bundle install --binstubs --path ruby_modules
 	npm install
-	export PATH=./bin:./node_modules/.bin:$PATH
+	source ./env
 	bower install
 
 ### start develop
