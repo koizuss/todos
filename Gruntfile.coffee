@@ -49,9 +49,10 @@ module.exports = (grunt) ->
           cleanBowerDir: false
 
     connect:
-      options:
-        hostname: '0.0.0.0'
-        base: 'assets'
+      server:
+        options:
+          hostname: '0.0.0.0'
+          base: 'assets'
 
   for task of pkg.devDependencies when task.substring(0, 6) is 'grunt-'
     grunt.loadNpmTasks task

@@ -14,5 +14,15 @@
   ],
   "dependencies": {
     "bootstrap": "~3.2.0"
+  },
+  "exportsOverride": {
+    "bootstrap": {
+      "css": "**/dist/css/*",
+      "js": "**/dist/js/*",
+      "fonts": "**/fonts/*"
+    },
+    "jquery": {
+      "": "**/dist/jquery*"
+    }
   }
 }
