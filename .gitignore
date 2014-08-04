@@ -6,3 +6,5 @@ ruby_modules
 bower_components
 assets/components
 assets/js/todos.min.*
+.sass-cache
+assets/css
