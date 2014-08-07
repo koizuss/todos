@@ -1,12 +1,11 @@
 @import "compass";
 
-html,
-body {
-  overflow-x: hidden; /* Prevent scroll on narrow devices */
+* {
+	margin: 0;
+	padding: 0;
 }
-body {
-  padding-top: 70px;
+
+html, body {
+	height: 100%;
 }
-footer {
-  padding: 30px 0;
-}
+
