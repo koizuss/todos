@@ -4,6 +4,7 @@
   "description": "manage your todos",
   "main": "index.js",
   "scripts": {
+    "prestart": "bundle install --binstubs --path ruby_modules && npm install && bower install",
     "start": "grunt",
     "test": "echo \"Error: no test specified\" && exit 1"
   },

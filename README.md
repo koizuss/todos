@@ -8,19 +8,17 @@ todos
 - ruby: v1.9.3p448
 	- bundler: v1.5.3
 
-## Setup
-
-	bundle install --binstubs --path ruby_modules
-	npm install
-	source ./env
-	bower install
+## Usage
 
 ### start develop
 
 	npm start
 
+### only project setup
+
+	npm run-script prestart
+
 ### manage project
-	source ./env
 
 #### set path for use project tools
 
